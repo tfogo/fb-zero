@@ -1,0 +1,212 @@
+li._1ht1 {
+}
+
+li._1ht1._1ht2 {
+    background-color: #f3f3f3;
+}
+
+.slide-right {
+    -webkit-animation-duration: 1s;
+    -webkit-animation-name: slide-right;
+}
+
+@-webkit-keyframes slide-right {
+  from {
+      transform: translateX(0%);
+  }
+
+  to {
+      transform: translateX(100%);
+  }
+}
+
+.slide-left {
+    -webkit-animation-duration: 1s;
+    -webkit-animation-name: slide-left;
+}
+
+@-webkit-keyframes slide-left {
+  from {
+      transform: translateX(0%);
+  }
+
+  to {
+      transform: translateX(-100%);
+  }
+}
+
+.side {
+    width: 200px;
+    height: 100%;
+    background-color: #fff;
+    float: left;
+    border-right: 1px solid rgba(0, 0, 0, .10);
+}
+
+html, body {
+    height: 100%;
+}
+
+.side .top {
+    background-color: rgba(255, 255, 255, .95);
+    border-bottom: 1px solid rgba(0, 0, 0, .10);
+    -webkit-box-sizing: border-box;
+    height: 50px;
+    padding: 8px;
+    width: 100%;
+}
+
+.folder-title {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 7px 0;
+    overflow: visible;
+    text-align: center;
+}
+
+.folder-name {
+    margin: 8px;
+    padding: 4px 8px 4px 8px;
+    border-radius: 5px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.folder-name:hover {
+    cursor: pointer;
+}
+
+.folder-name p {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    overflow: visible;
+    margin: 0px;
+}
+
+.folder-name i {
+    font-size: 26px;
+    vertical-align: middle;
+    float: left;
+    margin-right: 8px;
+    line-height: 26px;
+}
+
+.fb-blue {
+    color: #0084ff;
+}
+
+.brown {
+    color: #B87333;
+}
+
+.green {
+    color: #00c853;
+}
+
+.grey {
+    color: rgba(0, 0, 0, .40);
+}
+
+.active, .active .fb-blue, .active .brown, .active .green, .active .grey {
+    color: #fff;
+}
+
+.folder-inbox.active {
+    background-color: #0084ff;
+}
+
+.folder-lists.active {
+    background-color: #B87333;
+}
+
+.folder-archive.active {
+    background-color: #00c853;
+}
+
+.folder-sub-list div {
+    margin-left: 34px;
+    color: rgba(0, 0, 0, .40);
+}
+
+.folder-sub-list.active div {
+    color: #fff;
+}
+
+._1ht1.green-box {
+    background-color: rgb(0, 200, 83);
+    position: absolute;
+    /* z-index: -10; */		
+    padding-left: 0;
+    width: 100%;
+}
+
+.green-box i {
+    color: #fff;
+    font-size: 40px;
+    line-height: 71px;
+    margin-left: 12px;
+}
+
+._1ht1.blue-box {
+    background-color: #0084ff;
+    position: absolute;
+    /* z-index: -10; */		
+    padding-left: 0;
+    width: 100%;
+}
+
+.blue-box i {
+    color: #fff;
+    font-size: 40px;
+    line-height: 71px;
+    margin-left: 12px;
+}
+
+.folder-buttons {
+      float: left;
+      font-size: 32px;
+      line-height: 34px;
+}
+
+.folder-buttons i:hover {
+    cursor: pointer;
+}
+
+.scan {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(255,255,255,0.9);
+    z-index: 10;
+    vertical-align: middle;
+}
+
+.message-container {
+    text-align: center;
+    font-size: 18px;
+    line-height: 18px;
+    margin-top: 50%;
+}
+
+.scan .button {
+    width: 150px;
+    background-color: rgb(0, 132, 255);
+    color: #fff;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.scan .button {
+    text-decoration: none;
+}
+
+.message-container i {
+    margin-right: 8px;
+}
+
+.scan-count {
+    font-size: 14px;
+    font-height: 14px;
+}
