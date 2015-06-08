@@ -184,15 +184,10 @@ var observer = new MutationObserver(function(mutations) {
 	// if (!!mutation.addedNodes[0]) {
 	//     console.log(mutation.addedNodes[0]);
 	// }
-
 	
-	
-	if (!!mutation.removedNodes[0] && mutation.removedNodes[0].className === "_3u55 _3qh2 img sp_IK9bak_1Td0 sx_01dd90") {
-	    console.log('continue');
-	}
 
 	if (!!mutation.removedNodes[0] && mutation.removedNodes[0].className === "_19hf") {
-	    console.log("END");
+	    
 	    $('.message-container').html('<p>Finished!</p><a href="#" class="button archive-all-button">Archive all threads</a>');
 
 	    $('.archive-all-button').click(function() {
@@ -212,7 +207,6 @@ var observer = new MutationObserver(function(mutations) {
 		$('.scan').remove();
 	    });
 	    
-	    // continue checking till next mutation's previousSibling !== '_1ht1' to ensure all _1ht1's are loaded in?
 	}
 
 
